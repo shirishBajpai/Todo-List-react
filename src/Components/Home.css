@@ -29,7 +29,9 @@ h1{
 }
 
 .todo-task{
-    width: 330px;
+    width: 470px;
+    margin: 5px;
+    padding: 5px;
     background-color: rgb(245, 202, 202);
     border-radius: 6px;
     cursor: pointer;
