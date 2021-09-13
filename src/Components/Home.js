@@ -20,6 +20,7 @@ const Home = () => {
         }
     }
     const onComplete = (e) => {
+        console.log("f");
         //console.log(e.target.innerText);
         const arr = values.filter((item) => item !== e.target.innerText);
         setValues(arr);
