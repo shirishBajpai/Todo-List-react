@@ -14,13 +14,13 @@ h1{
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.inputVal{
+.todo_input{
     width: 400px;
     border-radius: 6px;
     padding: 4px;
 }
 
-.btn{
+.todo_btn_addTask{
     border-radius: 6px;
     padding: 4px;
     color: white;
@@ -28,7 +28,15 @@ h1{
     
 }
 
-.todo-task{
+.todo_btn_cancelTasks{
+    border-radius: 6px;
+    padding: 4px;
+    color: white;
+    background-color: rgb(97, 97, 97);
+    float: right;
+}
+
+.todo_task{
     width: 470px;
     margin: 5px;
     padding: 5px;
